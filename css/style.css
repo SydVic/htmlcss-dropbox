@@ -104,3 +104,37 @@ header{
     border: 1px solid grey;
 
 }
+
+.plans-type{
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
+/* SALES CONTACT */
+.sales-contact{
+    border: 1px solid grey;
+
+    /* TEST */
+    height:200px;
+}
+
+.col-sales-team{
+    text-align: center;
+    border: 1px solid grey;
+}
+
+.col-sales-info{
+    width:70%;
+
+    /* TEST */
+    background-color: pink;
+    height: 175px;
+}
+
+.col-sales-contact{
+    width:30%;
+
+    /* TEST */
+    background-color: rgb(199, 255, 192);
+    height: 175px;
+}
