@@ -16,6 +16,10 @@
     float: left;
 }
 
+.mt-5{
+    margin-top: 5em;
+}
+
 /* HEADER */
 header{
 
@@ -40,7 +44,7 @@ header{
     width: 50%;
 
     /* TEST */
-    height:95px;
+    height: 95px;
     border: 2px solid black;
 }
 
@@ -78,7 +82,7 @@ header{
 
 /* MAIN */
 .container-main{
-    margin: 5em auto;
+    margin: auto;
     width: 60%;
 
     /* TEST */
@@ -137,4 +141,21 @@ header{
     /* TEST */
     background-color: rgb(199, 255, 192);
     height: 175px;
+}
+
+/* PARTNER */
+.col-img{
+    width: 60%;
+
+    /* TEST */
+    height: 300px;
+    background-color: aqua;
+}
+
+.col-text{
+    width: 40%;
+
+    /* TEST */
+    height: 300px;
+    background-color: rgb(238, 255, 0);
 }
