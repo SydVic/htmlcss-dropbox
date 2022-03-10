@@ -240,3 +240,25 @@ header{
     /* TEST */
     border: 1px solid red;
 }
+
+/* FOOTER NAV */
+.footer-nav{
+    background-color: black;
+    color: white;
+
+    /* TEST */
+    height: 400px;
+}
+
+.footer-nav-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.col-footer-nav{
+    width: 20%;
+
+    /* TEST */
+    border: 1px solid white;
+    height: 300px;;
+}
