@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+ul{
+    list-style: none;
+}
+
 /* COMMON */
 .clearfix::after{
     content: "";
@@ -85,7 +89,7 @@ header{
 }
 
 /* MAIN */
-.container-main{
+.container{
     margin: auto;
     width: 60%;
 
@@ -226,4 +230,13 @@ header{
 .cta-button{
     width: 40%;
     text-align: center;
+}
+
+/* FOOTER */
+
+/* FAQS */
+.faqs{
+
+    /* TEST */
+    border: 1px solid red;
 }
