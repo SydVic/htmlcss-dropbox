@@ -4,3 +4,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* COMMON */
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float{
+    float: left;
+}
+
+/* HEADER */
+header{
+
+    /*  TEST */
+    height:600px;
+    background-color: #b4d0e7;
+}
+
+.header-nav{
+    margin: 0 auto;
+    width: 99%;
+
+    /* TEST */
+    height: 100px;
+    background-color: red;
+}
+
+.header-nav-left,
+.header-nav-right{
+    width: 50%;
+
+    /* TEST */
+    height:95px;
+    border: 2px solid black;
+}
