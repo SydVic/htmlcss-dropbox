@@ -28,16 +28,16 @@ a{
     float: left;
 }
 
-.mt-2{
+.pdt-2{
     padding-top: 2em;
 }
 
-.mt-5{
-    margin-top: 5em;
+.mt-10{
+    margin-top: 10em;
 }
 
 .section-title{
-    font-size: 2em;
+    font-size: 3em;
 }
 
 /* BUTTONS */
@@ -50,6 +50,7 @@ a{
 /* HEADER */
 header{
     background-color: #b4d0e7;
+    height: 850px;
 }
 
 /* HEADER NAV */
@@ -103,7 +104,6 @@ nav.header-nav a.nav{
 .jumbotron-col-text{
     width: 35%;
     padding-right: 6em;
-    padding-top: 6em;
 }
 
 .jumbotron-col-image{
