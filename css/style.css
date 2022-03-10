@@ -24,6 +24,7 @@ header{
     background-color: #b4d0e7;
 }
 
+/* HEADER NAV */
 .header-nav{
     margin: 0 auto;
     width: 99%;
@@ -40,4 +41,36 @@ header{
     /* TEST */
     height:95px;
     border: 2px solid black;
+}
+
+/*  HEADER JUMBOTRON  */
+.container-jumbotron{
+    margin: 0 auto;
+    width: 80%;
+
+    /* TEST */
+    border: 2px solid black;
+}
+
+.jumbotron-title{
+    text-align: left;
+
+    /* TEST */
+    background-color: white;
+}
+
+.jumbotron-col-text{
+
+    /* TEST */
+    width: 35%;
+    height: 300px;
+    background-color: blueviolet;
+}
+
+.jumbotron-col-image{
+
+    /* TEST */
+    width: 65%;
+    height: 300px;
+    background-color: rgb(73, 206, 61);
 }
