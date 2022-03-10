@@ -5,8 +5,16 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: "Open Sans", sans-serif;
+}
+
 ul{
     list-style: none;
+}
+
+a{
+    text-decoration: none;
 }
 
 /* COMMON */
@@ -28,6 +36,13 @@ ul{
     font-size: 2em;
 }
 
+/* BUTTONS */
+.btn-blue{
+    background-color: #0061ff;
+    color: #ffffff;
+    padding: 0.7em 1em;
+}
+
 /* HEADER */
 header{
 
@@ -38,22 +53,37 @@ header{
 
 /* HEADER NAV */
 .header-nav{
-    /* position: fixed; */   
+    background-color: rgb(255, 255, 255);
+    /* position: fixed;   */
     margin: 0 auto;
     width: 99%;
+    vertical-align: middle;
+    line-height: 80px;
+    /* height: 80px; */
+}
 
-    /* TEST */
-    height: 100px;
-    background-color: red;
+.header-nav img{
+    vertical-align: text-bottom;
+    width: 130px;
+    height: auto;
+}
+
+.header-nav ul,li{
+    display: inline-block;
+    margin: 0 1em;
 }
 
 .header-nav-left,
 .header-nav-right{
     width: 50%;
+}
 
-    /* TEST */
-    height: 95px;
-    border: 2px solid black;
+nav.header-nav a{
+    color: black;
+}
+
+.header-nav-right{
+    text-align: right;
 }
 
 /*  HEADER JUMBOTRON  */
