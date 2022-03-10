@@ -20,6 +20,10 @@
     margin-top: 5em;
 }
 
+.section-title{
+    font-size: 2em;
+}
+
 /* HEADER */
 header{
 
@@ -158,4 +162,25 @@ header{
     /* TEST */
     height: 300px;
     background-color: rgb(238, 255, 0);
+}
+
+/* BUSINESS */
+.business{
+    
+    /* TEST */
+    background-color: bisque;
+    height: 600px;
+}
+
+.business-col-container{
+    margin: 0 auto;;
+}
+
+.col-business{
+    width: calc(100% / 3);
+
+    /* TEST */
+    border: 1px solid black;
+    background-color: aquamarine;
+    height: 200px;
 }
