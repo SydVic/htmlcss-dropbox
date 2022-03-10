@@ -85,7 +85,7 @@ header{
     text-align: right;
 }
 
-nav.header-nav a{
+nav.header-nav a.nav{
     color: black;
 }
 
