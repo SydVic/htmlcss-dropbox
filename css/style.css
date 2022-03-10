@@ -91,7 +91,7 @@ header{
 
     /* TEST */
     border: 2px solid red;
-    height: 2000px
+    /* height: 2000px */
 
 }
 
@@ -100,7 +100,7 @@ header{
     
     /* TEST */
     background-color: yellow;
-    height: 600px;
+    /* height: 600px; */
 }
 
 .col-price{
@@ -169,7 +169,7 @@ header{
     
     /* TEST */
     background-color: bisque;
-    height: 600px;
+    /* height: 600px; */
 }
 
 .business-col-container{
@@ -177,10 +177,53 @@ header{
 }
 
 .col-business{
-    width: calc(100% / 3);
+    width: calc((100% / 3) - 4em);
+    margin: 2em;
 
     /* TEST */
     border: 1px solid black;
     background-color: aquamarine;
     height: 200px;
+}
+
+/* PARTNERS BANNER */
+.partners-banner{
+    background-color: #b4d0e7;
+
+    /* TEST */
+    height: 600px;
+}
+
+.col-partners-agency-img{
+    width: 25%;
+
+    /* TEST */
+    background-color: red;
+    height: 300px;
+}
+
+.col-partners-agency-text{
+    width: 50%;
+
+    /* TEST */
+    background-color: rgb(43, 255, 0);
+    height: 300px;
+}
+
+.partners-agency-img{
+    width: 50%;
+
+    /* TEST */
+    border: 1px solid black;
+    height: 150px;
+}
+
+.cta-text{
+    width: 60%;
+    text-align: center;
+}
+
+.cta-button{
+    width: 40%;
+    text-align: center;
 }
