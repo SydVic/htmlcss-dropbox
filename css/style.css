@@ -79,7 +79,9 @@ a{
 
 /* HEADER NAV */
 .header-nav{
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
+    border-top: 1px solid #808080;
+    border-bottom: 1px solid #808080;
     position: fixed;
     z-index: 999;
     top: 0;
@@ -421,8 +423,30 @@ div.container-text a{
 
 .col-footer-nav{
     width: 20%;
+}
 
-    /* TEST */
-    border: 1px solid white;
-    height: 300px;;
+.col-footer-nav h4{
+    font-size: 1.2em;
+    margin: 4em 0 1.5em 0;
+}
+
+.col-footer-nav li{
+    margin-top: .5em;
+}
+
+.col-footer-nav a{
+    color: white;
+}
+
+.col-footer-nav a:hover{
+    text-decoration: underline;
+}
+
+.footer-line{
+    border-bottom: 1px solid grey;
+    margin: 5em 0 2.5em 0;
+}
+
+.footer-nav-language{
+    color: #808080;
 }
