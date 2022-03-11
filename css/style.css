@@ -263,15 +263,75 @@ div.container-text a{
 
 /* PARTNERS BANNER */
 .partners-banner{
-    background-color: #b4d0e7;
+    background-color: #b4d0e7;;
 }
 
 .col-partners-agency-img{
     width: 25%;
+}
 
-    /* TEST */
-    background-color: red;
-    height: 300px;
+.col-partners-agency-img .designit{
+    background-color: #a2d39b;
+    background-image: url(../img/designit.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.col-partners-agency-img .asu{
+    background-color: #61082b;
+    background-image: url(../img/arizona_state_university.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.col-partners-agency-img .uf{
+    background-color: #0093ce;
+    background-image: url(../img/university_of_florida.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.col-partners-agency-img .topps{
+    background-color: #ff1c1c;
+    background-image: url(../img/topps.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.col-partners-agency-img .wbr{
+    background-color: #d5001f;
+    background-image: url(../img/world_bicycle_relief.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.col-partners-agency-img .lonpla{
+    background-color: #0d2481;
+    background-image: url(../img/lonely_planet.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.col-partners-agency-img .hearst{
+    background-color: #b4d0e7;
+    background-image: url(../img/hearst_corp.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.col-partners-agency-img .cco{
+    background-color: #ffd830;
+    background-image: url(../img/clear_channel.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .col-partners-agency-text{
