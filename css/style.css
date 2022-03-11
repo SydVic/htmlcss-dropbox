@@ -23,6 +23,12 @@ a{
     display: inline-block;
 }
 
+/*TEST OVERLAY*/
+
+/*TEST OVERLAY*/
+
+
+
 /* COMMON */
 .clearfix::after{
     content: "";
@@ -52,6 +58,10 @@ a{
 
 .pdt-1{
     padding-top: 1em;
+}
+
+.pdt-5{
+    padding-top: 5em;
 }
 
 .section-title{
@@ -117,6 +127,10 @@ nav.header-nav a.nav{
     color: black;
 }
 
+a.nav:hover{
+    border-bottom: 2px solid #000000;
+}
+
 a.btn-nav{
     background-color: #0061ff;
     color:white;
@@ -173,11 +187,37 @@ div.prices-plan div.col-price:nth-child(2){
 }
 
 .plans-type{
+    font-weight: bold;
     text-align: center;
     border-bottom: 1px solid grey;
     padding: .3em 0;
 }
 
+div.col-price li{
+    margin: 1em 0;
+}
+
+div.plans-features li:first-child{
+    font-weight: bold;
+}
+
+div.plans-features li:nth-child(2){
+    color: #637381;
+}
+
+div.plans-features li:nth-child(3){
+    margin-top: 3em;
+}
+
+div.plans-features a.btn-blue{
+    margin-top: 2em;
+    margin-bottom: 0.7em;
+}
+
+.price-line{
+    width: 20%;
+    border-bottom: 2px solid #d0d0d3;
+}
 span.choice i{
     font-weight: bold;
     color: #0061ff;
@@ -192,6 +232,7 @@ span.choice i{
     text-align: center;
     border-bottom: 1px solid grey;
     padding: .5em 0;
+    font-weight: bold;
 }
 .sales-margin{
     margin: 1.5em 1.5em;
