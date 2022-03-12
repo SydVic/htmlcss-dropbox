@@ -464,6 +464,10 @@ div.container-text a{
 /* FOOTER */
 
 /* FAQS */
+.float-right{
+    float: right;
+}
+
 .faqs h3{
     font-size: 2.5em;
     margin: 3em 0 1.5em 0;
@@ -488,9 +492,22 @@ div.container-text a{
     display: none;
 }
 
+.faqs span.arr-up{
+    display:none;
+}
+
 .faqs li:hover p{
     display: block;
 }
+
+.faqs li:hover span.arr-dwn{
+    display: none;
+}
+
+.faqs li:hover span.arr-up{
+    display: contents;
+}
+
 
 /* FOOTER NAV */
 .footer-nav{
