@@ -499,7 +499,7 @@ div.container-text a{
 .faqs li:hover p{
     display: block;
 }
-
+/*forse anche con transform?*/
 .faqs li:hover span.arr-dwn{
     display: none;
 }
@@ -507,7 +507,6 @@ div.container-text a{
 .faqs li:hover span.arr-up{
     display: contents;
 }
-
 
 /* FOOTER NAV */
 .footer-nav{
