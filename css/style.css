@@ -200,6 +200,19 @@ span.choice i{
     color: #0061ff;
 }
 
+.float-icon{
+    width:7%;
+    float: left;
+}
+.float-text{
+    width:93%;
+    float: left;
+}
+
+div.plans-features h3{
+    font-size: 1.5em;
+}
+
 div.col-price li{
     margin: 1em 0;
 }
