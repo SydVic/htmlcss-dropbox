@@ -30,8 +30,20 @@ a{
     clear: both;
 }
 
+.color-grey{
+    color: #808080;
+}
+
+.u-line{
+    text-decoration: underline;
+}
+
 .float{
     float: left;
+}
+
+.float-right{
+    float: right;
 }
 
 .mt-2{
@@ -74,6 +86,34 @@ a{
     font-size: 1.5em;
 }
 
+.width-60{
+    width: 60%;
+}
+
+.width-40{
+    width: 40%;
+}
+
+.width-20{
+    width: 20%;
+}
+
+.b-b-g{
+    border-bottom: 1px solid #808080;
+}
+
+.b-t-g{
+    border-top: 1px solid #808080;
+}
+
+.border-g{
+    border: 1px solid #808080;
+}
+
+.border-lg{
+    border: 1px solid #d0d0d3;
+}
+
 /* BUTTONS */
 .btn-blue{
     background-color: #0061ff;
@@ -96,8 +136,6 @@ a.btn-w:hover{
 
 .header-nav{
     background-color: #ffffff;
-    border-top: 1px solid #808080;
-    border-bottom: 1px solid #808080;
     position: fixed;
     z-index: 999;
     top: 0;
@@ -185,12 +223,7 @@ ul.sub-menu > li:hover a{
 }
 
 .jumbotron-col-text{
-    width: 35%;
     padding-right: 6em;
-}
-
-.jumbotron-col-image{
-    width: 65%;
 }
 
 .jumbotron-arrow{
@@ -201,15 +234,13 @@ ul.sub-menu > li:hover a{
 /* MAIN */
 .container{
     margin: auto;
-    width: 60%;
+    /* width: 60%; */
 }
 
 /* PRICES */
 .col-price{
     width: calc((100% / 3) - 3em);
     min-height: 1000px;
-    margin-top: 2em;
-    border: 1px solid grey;
 }
 
 div.prices-plan div.col-price:nth-child(2){
@@ -220,7 +251,6 @@ div.prices-plan div.col-price:nth-child(2){
 .plans-type{
     font-weight: bold;
     text-align: center;
-    border-bottom: 1px solid grey;
     padding: .3em 0;
 }
 
@@ -259,23 +289,19 @@ div.plans-features li:nth-child(3){
 }
 
 div.plans-features a.btn-blue{
-    margin-top: 2em;
     margin-bottom: 0.7em;
 }
 
 div.plans-features a.buy-now{
     color: #0061ff;
-    text-decoration: underline;
 }
 
 .price-line{
-    width: 20%;
-    border-bottom: 2px solid #d0d0d3;
     margin: 1.5em 0 2em 0;
 }
 
 div.plans-advantages li{
-    margin-top: 1.5em;
+    margin-top: 2em;
 }
 
 div.plans-advantages i{
@@ -283,13 +309,8 @@ div.plans-advantages i{
 }
 
 /* SALES CONTACT */
-.sales-contact{
-    border: 1px solid grey;
-}
-
 .col-sales-team{
     text-align: center;
-    border-bottom: 1px solid grey;
     padding: .5em 0;
     font-weight: bold;
 }
@@ -320,14 +341,6 @@ div.col-sales-contact a.btn-blue{
 }
 
 /* PARTNER */
-.col-partner-img{
-    width: 60%;
-}
-
-.col-partner-text{
-    width: 40%;
-}
-
 .partner-margin{
     margin: 3em 0 0 2.5em;
 }
@@ -359,7 +372,6 @@ div.col-business h3{
 
 div.col-business a{
     color: #000000;
-    text-decoration: underline;
 }
 
 /* PARTNERS BANNER */
@@ -374,12 +386,10 @@ div.col-business a{
 
 div.container-text h2{
     font-size: 2.5em;
-    margin-top: 3em;
 }
 
 div.container-text a{
     color: #0061ff;
-    text-decoration: underline;
     margin: 2em 0;
 }
 
@@ -450,19 +460,9 @@ div.partners-agency-img img{
     margin: 3em 3em;
 }
 
-.partners-text-img{
-    width: 20%;
-}
-
 .line{
     width: 10%;
-    border: 1px solid #dedee0;
     margin: 2em 0 3em 0;
-}
-
-/* CTA */
-.cta-text{
-    width: 60%;
 }
 
 .cta-text-margin,
@@ -476,7 +476,6 @@ div.partners-agency-img img{
 }
 
 .cta-button{
-    width: 40%;
     text-align: right;
 }
 
@@ -489,10 +488,6 @@ div.partners-agency-img img{
 /* FOOTER */
 
 /* FAQS */
-.float-right{
-    float: right;
-}
-
 .faqs h3{
     font-size: 2.5em;
     margin: 3em 0 1.5em 0;
@@ -501,19 +496,16 @@ div.partners-agency-img img{
 .faqs h4{
     display: inline-block;
 }
+
 .faqs li{
-    border-top: 1px solid #808080;
     padding: 2em 0;
 }
 
 .faqs li:last-child{
-    border-bottom: 1px solid #808080;
     margin-bottom: 8em;
 }
 
 .faqs p{
-    color:#808080;
-    margin-top: 1.5em;
     display: none;
 }
 
@@ -533,11 +525,6 @@ div.partners-agency-img img{
     display: contents;
 }
 
-.faqs > ul > li > p > a{
-    color: #808080;
-    text-decoration: underline;
-}
-
 /* FOOTER NAV */
 .footer-nav{
     background-color: black;
@@ -547,10 +534,6 @@ div.partners-agency-img img{
 .footer-nav-container{
     width: 80%;
     margin: 0 auto;
-}
-
-.col-footer-nav{
-    width: 20%;
 }
 
 .col-footer-nav h4{
@@ -571,10 +554,5 @@ div.partners-agency-img img{
 }
 
 .footer-line{
-    border-bottom: 1px solid grey;
     margin: 5em 0 2.5em 0;
-}
-
-.footer-nav-language a{
-    color: #808080;
 }
