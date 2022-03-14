@@ -313,6 +313,7 @@ div.partner-text a.partner-btn{
     border: 1px solid #000000;
     padding: 0.5em 1em;
 }
+
 /* BUSINESS */
 .business-col-container{
     margin: 0 auto;
@@ -332,6 +333,7 @@ div.col-business a{
     text-decoration: underline;
 }
 
+/* PARTNERS BANNER */
 .container-small{
     margin: 0 auto;
     width: 75%;
@@ -352,7 +354,6 @@ div.container-text a{
     margin: 2em 0;
 }
 
-/* PARTNERS BANNER */
 .partners-banner{
     background-color: #b4d0e7;;
 }
