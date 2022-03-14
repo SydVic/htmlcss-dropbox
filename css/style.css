@@ -147,12 +147,13 @@ a.btn-nav{
 .sub-menu{
     position: absolute;
     text-align: left;
-    display: none;
+    /* display: none; */
     background-color: #ffffff;
 }
 
 ul.sub-menu > li{
     display: block;
+    margin: 0;
 }
 
 li:hover .sub-menu{
@@ -161,6 +162,8 @@ li:hover .sub-menu{
 
 ul.sub-menu li a{
     color: #000000;
+    padding: 0 1em;
+    width: 100%;
 }
 
 ul.sub-menu > li:hover a{
