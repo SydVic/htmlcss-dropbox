@@ -130,7 +130,7 @@ nav.header-nav a.nav{
 }
 
 a.nav:hover{
-    border-bottom: 2px solid #04a81a;
+    border-bottom: 2px solid #0061ff;
 }
 
 a.btn-nav{
@@ -362,56 +362,51 @@ div.container-text a{
     height: 25vw;
 }
 
-.partners-agency-img{
+div.partners-agency-img{
     width: 12.5vw;
     height: 12.5vw;
+    position: relative;
+}
+
+div.partners-agency-img img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    width: 50%;
 }
 
 .col-partners-agency-img .designit{
     background-color: #a2d39b;
-    background-image: url(../img/designit.svg);
     border: 0.5vw solid #d0e9cd;
 }
 
 .col-partners-agency-img .asu{
     background-color: #61082b;
-    background-image: url(../img/arizona_state_university.svg);
 }
 
 .col-partners-agency-img .uf{
     background-color: #0093ce;
-    background-image: url(../img/university_of_florida.svg);
 }
 
 .col-partners-agency-img .topps{
     background-color: #ff1c1c;
-    background-image: url(../img/topps.svg);
 }
 
 .col-partners-agency-img .wbr{
     background-color: #d5001f;
-    background-image: url(../img/world_bicycle_relief.svg);
 }
 
 .col-partners-agency-img .lonpla{
     background-color: #0d2481;
-    background-image: url(../img/lonely_planet.svg);
 }
 
 .col-partners-agency-img .hearst{
     background-color: #b4d0e7;
-    background-image: url(../img/hearst_corp.svg);
 }
 
 .col-partners-agency-img .cco{
     background-color: #ffd830;
-    background-image: url(../img/clear_channel.svg);
-}
-
-.col-partners-agency-img .bgi{
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .col-partners-agency-text{
