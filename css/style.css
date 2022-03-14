@@ -58,6 +58,10 @@ a{
     padding-top: 5em;
 }
 
+.pdb-2{
+    padding-bottom: 2em;
+}
+
 .section-title{
     font-size: 3em;
 }
@@ -101,7 +105,7 @@ a.btn-w:hover{
     margin: 0 auto;
     width: 100%;
     vertical-align: middle;
-    line-height: 58px;
+    line-height: 56px;
     height: 60px;
 }
 
@@ -203,7 +207,6 @@ ul.sub-menu > li:hover a{
     min-height: 1000px;
     margin-top: 2em;
     border: 1px solid grey;
-    /* line-height: 3em; */
 }
 
 div.prices-plan div.col-price:nth-child(2){
@@ -527,13 +530,15 @@ div.partners-agency-img img{
     display: contents;
 }
 
+.faqs > ul > li > p > a{
+    color: #808080;
+    text-decoration: underline;
+}
+
 /* FOOTER NAV */
 .footer-nav{
     background-color: black;
     color: white;
-
-    /* TEST */
-    height: 400px;
 }
 
 .footer-nav-container{
@@ -567,6 +572,6 @@ div.partners-agency-img img{
     margin: 5em 0 2.5em 0;
 }
 
-.footer-nav-language{
+.footer-nav-language a{
     color: #808080;
 }
