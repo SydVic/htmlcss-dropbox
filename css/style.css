@@ -147,7 +147,7 @@ a.btn-nav{
 .sub-menu{
     position: absolute;
     text-align: left;
-    /* display: none; */
+    display: none;
     background-color: #ffffff;
 }
 
