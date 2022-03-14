@@ -140,6 +140,29 @@ a.btn-nav{
     padding: 0 1.5em;
 }
 
+.sub-menu{
+    position: absolute;
+    text-align: left;
+    display: none;
+    background-color: #ffffff;
+}
+
+ul.sub-menu > li{
+    display: block;
+}
+
+li:hover .sub-menu{
+    display: block;
+}
+
+ul.sub-menu li a{
+    color: #000000;
+}
+
+ul.sub-menu > li:hover a{
+    background-color: rgba(128, 128, 128, 0.2)
+}
+
 /*  HEADER JUMBOTRON  */
 .container-jumbotron{
     margin: 0 auto;
