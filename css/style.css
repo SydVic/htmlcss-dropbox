@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+/*forse sarebbe stato interessante fare anche un reset del font con il discorso del 62.5% per avere 10px e fare i margini e padding in rem cosi da averli più "standardizzati"*/
 html{
     font-family: "Open Sans", sans-serif;
     scroll-behavior: smooth;
@@ -36,6 +37,10 @@ a{
 
 .u-line{
     text-decoration: underline;
+}
+
+a.hvr-no-u-line:hover{
+    text-decoration: none;
 }
 
 .float{
@@ -170,7 +175,7 @@ a.btn-w:hover{
 nav.header-nav a.nav{
     color: black;
 }
-
+/* per il problema che si sposta si può aggiungere un margine trasparente che di default non si vede cosi quando poi lo vai a colorare non si sposta*/
 a.nav:hover{
     border-bottom: 2px solid #0061ff;
 }
@@ -234,7 +239,6 @@ ul.sub-menu > li:hover a{
 /* MAIN */
 .container{
     margin: auto;
-    /* width: 60%; */
 }
 
 /* PRICES */
@@ -484,7 +488,6 @@ div.partners-agency-img img{
     background-color: #ffffff;
     padding: .7em 3em;
 }
-
 /* FOOTER */
 
 /* FAQS */
